@@ -253,6 +253,7 @@
     border: none;
     background: url("../img/submit.png") center, no-repeat;
     margin: 0 auto;
+    outline: none;
 
 }
 
