@@ -11,27 +11,70 @@
 <body>
 <!--start header-->
     <div class="header">
+
         <div class="header__container">
+            <div class="nav-btn">
+                <div class="nav-btn__line"></div>
+                <div class="nav-btn__line"></div>
+                <div class="nav-btn__line"></div>
+
+            </div>
             <h3 class="logo">Black Sea</h3>
             <ul class="nav">
-                <li class="nav__item">Home</li>
+                <li class="nav__item"><a href="#">Home</a></li>
                 <div class="nav__delimiter"></div>
-                <li class="nav__item">About me</li>
+                <li class="nav__item"><a href="#">About me</a></li>
                 <div class="nav__delimiter"></div>
-                <li class="nav__item">portfolio</li>
+                <li class="nav__item"><a href="#">Portfolio</a></li>
                 <div class="nav__delimiter"></div>
-                <li class="nav__item">contact me</li>
+                <li class="nav__item"><a href="#">Contact me</a></li>
             </ul>
         </div>
     </div>
 <!--end header-->
 
 <!-- start section-1-->
-    <section class="section-1">
-        <div class="section-1__container">
-            <h2 class="section-1__title">We need the tonic of wildness</h2>
-            <button class="btn">Read more</button>
+    <section class="slider">
+        <input class="slider-choose-1" type="radio" name="slider" id="slide1" checked>
+        <input class="slider-choose-2" type="radio" name="slider" id="slide2" >
+        <input class="slider-choose-3" type="radio" name="slider" id="slide3" >
+
+        <div class="slider__wrapper">
+
+            <div class="slider-block-1 slider-block ">
+                <h2 class="slider-block__title">We need the tonic of wildness</h2>
+             <button class="btn">Read more</button>
+            </div>
+
+            <div class="slider-block-2 slider-block  ">
+                <h2 class="slider-block__title">We need the tonic of wildness</h2>
+                <button class="btn">Read more</button>
+            </div>
+
+            <div class="slider-block-3 slider-block ">
+                <h2 class="slider-block__title">We need the tonic of wildness</h2>
+                <button class="btn">Read more</button>
+            </div>
+
         </div>
+
+
+
+
+
+
+            <ul class="slider-button">
+                <li class="slider-button__item">
+                    <label class="slider-button_button" for="slide1"></label>
+                </li>
+                <li class="slider-button__item">
+                    <label class="slider-button_button" for="slide2"></label>
+                </li>
+                <li class="slider-button__item">
+                    <label class="slider-button_button" for="slide3"></label>
+                </li>
+
+            </ul>
 
     </section>
 <!--end section-1-->
@@ -89,3 +132,4 @@
     </footer>
 </body>
 </html>
+
